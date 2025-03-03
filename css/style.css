@@ -1,4 +1,70 @@
 td, th {
 	border: 1px solid;
+	font-family: "Courier New", Courier, monospace;
   }
   
+div {
+	align-content: center;
+}
+
+.responsive {
+	width: auto;
+	height: auto;
+	max-width: 125px;
+	min-height: 100px;
+}
+
+.earth {
+	background-color: lightblue;
+}
+
+.mars {
+	background-color: orange;
+}
+
+.jupiter {
+	background-color: red;
+}
+
+.saturn {
+	background-color: gray;
+}
+
+.category {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#planets{
+	text-align: center;
+}
+
+#earth {
+	color: blue;
+	font-size: 26px;
+	border: 1px solid black;
+}
+
+#mars {
+	color: orange;
+	font-size: 18px;
+	border: 1px solid black;
+
+}
+
+#jupiter {
+	color: red;
+	font-size: 42px;
+	border: 1px solid black;
+}
+
+#saturn {
+	color: gray;
+	font-size: 34px;
+	border: 1px solid black;
+}
+
+#empty {
+	border: 1px solid white;
+}
+
