@@ -1,17 +1,43 @@
 td, th {
-	border: 1px solid;
-	font-family: "Courier New", Courier, monospace;
+	border: 1px dashed, white;
+	font-family: "OCR A Std", Courier, monospace;
+	font-size: 18px;
   }
-  
-div {
-	align-content: center;
+
+html {
+	background-image: url("../images/stars.jpg")
+}
+
+a {
+	color: green;
+}
+
+body {
+	background-color: white;
+	border: 1px, solid, black;
+	padding: 5px;
+	font-family: "Garamond", "Times New Roman", serif;
+}
+
+h1{
+	text-decoration: underline;
+}
+
+.center{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
 }
 
 .responsive {
 	width: auto;
 	height: auto;
+	min-width: 100px;
 	max-width: 125px;
 	min-height: 100px;
+	max-height: 125px;
 }
 
 .earth {
@@ -32,39 +58,54 @@ div {
 
 .category {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 #planets{
-	text-align: center;
+	background-color: white;
 }
 
 #earth {
 	color: blue;
 	font-size: 26px;
-	border: 1px solid black;
+	column-width: 175px;
 }
 
 #mars {
 	color: orange;
 	font-size: 18px;
-	border: 1px solid black;
-
+	column-width: 175px;
 }
 
 #jupiter {
 	color: red;
 	font-size: 42px;
-	border: 1px solid black;
+	column-width: 175px;
 }
 
 #saturn {
 	color: gray;
 	font-size: 34px;
-	border: 1px solid black;
+	column-width: 175px;
 }
 
 #empty {
 	border: 1px solid white;
+	column-width: 175px;
 }
 
+#sources {
+	text-align: left;
+	color: black;
+	font-style: italic;
+}
+
+#sun {
+	width: auto;
+	height: auto;
+	min-width: 150px;
+	max-width: 200px;
+	min-height: 150px;
+	max-height: 200px;
+	float: left;
+}

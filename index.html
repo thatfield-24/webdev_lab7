@@ -5,8 +5,9 @@
   <title>Comparing Terrestial Planets and Gas Giants</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="center">
   <h1>Planetary Fact Sheet | Comparing Terrestial Planets and Gas Giants</h1>
+  <img src="images/sun.png" alt="Solar flare from the sun" id="sun">
   <table id="planets">
     <tr>
       <th id="empty"></th>
@@ -16,11 +17,18 @@
       <th id="saturn">Saturn</th>
     </tr>
     <tr>
-      <td class="category">Images of Terrestial Planets vs. Gas Giants</td>
-      <td class="earth"><img src="images/earth.jpg" alt="View of Earth from outer space" class="responsive"></td>
-      <td class="mars"><img src="images/mars.jpg" alt="Mars from outer space" class="responsive"></td>
-      <td class="jupiter"><img src="images/jupiter.jpg" alt="Jupiter's Red Spot" class="responsive"></td>
-      <td class="saturn"><img src="images/saturn.jpg" alt="Saturn and it's rings" class="responsive"></td>
+      <td class="category">Planetary Images</td>
+      <td class="earth"><img src="images/earth.png" alt="View of Earth from outer space" class="responsive"></td>
+      <td class="mars"><img src="images/mars.png" alt="Mars from outer space" class="responsive"></td>
+      <td class="jupiter"><img src="images/jupiter.png" alt="Jupiter's Red Spot" class="responsive"></td>
+      <td class="saturn"><img src="images/saturn.png" alt="Saturn and it's rings" class="responsive"></td>
+    </tr>
+	<tr>
+      <td class="category">Classification</td>
+      <td class="earth">Terrestial</td>
+      <td class="mars">Terrestial</td>
+      <td class="jupiter">Gas Giant</td>
+      <td class="saturn">Gas Giant</td>
     </tr>
     <tr>
       <td class="category">Mass (10<sup>21</sup> tons)</td>
@@ -58,21 +66,25 @@
       <td class="saturn">10747</td>
     </tr>
     <tr>
-      <td class="category">Mean Temperature</td>
-      <td class="earth">59</td>
-      <td class="mars">-85</td>
-      <td class="jupiter">-166</td>
-      <td class="saturn">-220</td>
+      <td class="category">Mean Temperature (F&deg;)</td>
+      <td class="earth">59&deg;</td>
+      <td class="mars">-85&deg;</td>
+      <td class="jupiter">-166&deg;</td>
+      <td class="saturn">-220&deg;</td>
     </tr>
     <tr>
-      <td class="category">Nuumber of Moons</td>
+      <td class="category">Number of Moons</td>
       <td class="earth">1</td>
       <td class="mars">2</td>
       <td class="jupiter">95</td>
       <td class="saturn">146</td>
     </tr>
   </table>
-  <section>
+  <div class="left">
+    <h2>Explanation of Color Difference and Font Size Difference in Table</h2>
+	<p>Each column is colored to represent the planet in that column. The font size goes from largest to smallest in the order of largest diameter to smallest diameter.</p>
+  </div>
+  <section id="sources">
     <h2>Sources:</h2>
 	<ul>
 	  <li>Data obtained from <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/planet_table_british.html">Nasa.gov | Fact Sheet</a></li>
@@ -80,5 +92,8 @@
 	  <li>Image of Mars obtained from <a href="https://science.nasa.gov/resource/global-color-views-of-mars/">Nasa.gov | Global Color Views of Mars</a></li>
 	  <li>Image of Jupiter obtained from <a href="https://hubblesite.org/contents/media/images/2021/047/01FM5RERXN48PKG1DY25F91S81?news=true">Hubblesite.org</a></li>
 	  <li>Image of Saturn obtained from <a href="https://www.sciencealert.com/what-is-saturn">Sciencealert.com | What is Saturn</a></li>
+	  <li>Background image of Stars obtained from <a href="https://science.nasa.gov/exoplanets/stars/">Nasa.gov | Stars</a></li>
 	</ul>
+  </section>
 </body>
+</html>
