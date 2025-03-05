@@ -1,5 +1,7 @@
 td, th {
-  border: 1px dashed, white;
+  border-style: dashed;
+  border-color: white;
+  border-width: 1px;
   font-family: "OCR A Std", Courier, monospace;
   font-size: 18px;
 }
@@ -14,7 +16,9 @@ a {
 
 body {
   background-color: white;
-  border: 1px, solid, black;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
   padding: 5px;
   font-family: "Garamond", "Times New Roman", serif;
 }
