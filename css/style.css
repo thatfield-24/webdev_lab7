@@ -64,7 +64,7 @@ h1{
 }
 
 .category {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 24px;
 }
 
@@ -77,7 +77,6 @@ h1{
   font-size: 26px;
   column-width: 175px;
   text-decoration: underline;
-  text-decoration-color: blue;
 }
 
 #mars {
@@ -85,7 +84,6 @@ h1{
   font-size: 18px;
   column-width: 175px;
   text-decoration: underline;
-  text-decoration-color: orange;
 }
 
 #jupiter {
@@ -93,7 +91,6 @@ h1{
   font-size: 42px;
   column-width: 175px;
   text-decoration: underline;
-  text-decoration-color: red;
 }
 
 #saturn {
@@ -101,7 +98,6 @@ h1{
   font-size: 34px;
   column-width: 175px;
   text-decoration: underline;
-  text-decoration-color: gray;
 }
 
 #empty {
