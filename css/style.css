@@ -12,6 +12,7 @@ html {
 
 a {
   color: green;
+  font-style: italic;
 }
 
 body {
@@ -105,9 +106,8 @@ h1{
 }
 
 #sources {
-  text-align: left;
-  color: black;
-  font-style: italic;
+  text-align: center;
+  font-weight: 300;
 }
 
 #sun {
