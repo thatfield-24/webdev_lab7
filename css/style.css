@@ -49,22 +49,18 @@ h1{
 
 .earth {
   background-color: lightblue;
-  text-decoration: underline;
 }
 
 .mars {
   background-color: orange;
-  text-decoration: underline;
 }
 
 .jupiter {
   background-color: red;
-  text-decoration: underline;
 }
 
 .saturn {
   background-color: gray;
-  text-decoration: underline;
 }
 
 .category {
@@ -80,24 +76,32 @@ h1{
   color: blue;
   font-size: 26px;
   column-width: 175px;
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
 
 #mars {
   color: orange;
   font-size: 18px;
   column-width: 175px;
+  text-decoration: underline;
+  text-decoration-color: orange;
 }
 
 #jupiter {
   color: red;
   font-size: 42px;
   column-width: 175px;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 #saturn {
   color: gray;
   font-size: 34px;
   column-width: 175px;
+  text-decoration: underline;
+  text-decoration-color: gray;
 }
 
 #empty {
